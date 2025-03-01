@@ -1,0 +1,59 @@
+*{margin: 0px;padding: 0px;}
+
+body{background: url(Gemini_Generated_Image_z3vguiz3vguiz3vg.jpg)no-repeat center center ;
+; }
+
+a {text-decoration: none; color: white;}
+a:hover{opacity: 0,7;
+color: rgb(255, 187, 0);}
+
+
+.logo{display: flex;
+text-transform: uppercase;
+letter-spacing: 4px; color: rgba(255, 255, 0, 0.856);}
+
+nav{display: flex;
+justify-content: space-around;
+align-items: center;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+; height: 8vh; color: white;background-color: #1dc2a6;}
+
+.menu{list-style: none;
+display: flex;}
+
+.menu li{letter-spacing: 3px;
+margin-left: 32px;}
+
+main {
+    color: white;
+    display: flex;
+    justify-content:center; /* Alinha os itens para o final horizontalmente */
+    align-items: center; /* Alinha os itens para o final verticalmente */
+    height: 100vh; /* Faz o main ocupar toda a altura da tela */
+    background: rgba(0, 0, 0, 0.5); /* Apenas para melhor visualização */
+}
+h2 {
+    border: 2px solid rgb(255, 255, 255); /* Define uma borda branca de 2px */
+    padding: 10px; /* Adiciona espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    border-radius: 8px; /* Deixa as bordas arredondadas */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); margin-left: -310px;}
+    
+
+    button {
+        display: block; /* Faz o botão ser exibido em uma nova linha */
+        margin-top: 200px; /* Adiciona um espaço entre o <h2> e o botão */
+        margin-left: -600px;
+        width: 200px; /* Largura do botão */
+        height: 40px; /* Altura do botão */
+        background-color: #1dc2a6; /* Cor de fundo do botão */
+        color: white;
+        border: none;
+        border-radius: 5px; /* Bordas arredondadas no botão */
+        font-size: 16px;
+        cursor: pointer; /* Adiciona um cursor de mão ao passar sobre o botão */
+        transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+    }
+    
+    button:hover {
+        background-color: #0e8d6a;}/* Muda a cor de fundo ao passar o mouse */ 
